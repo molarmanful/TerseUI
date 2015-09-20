@@ -1,4 +1,2 @@
 # TerseUI
-Bootstrap skin I made.
-
-Based on Lumen from Bootswatch.
+A calm, minimalist theme based on Bootswatch's Lumen. Has a tad bit more red.
