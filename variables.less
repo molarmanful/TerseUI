@@ -20,9 +20,9 @@
 @padding-base-vertical: 7px;
 @padding-large-vertical: 13px;
 @padding-small-vertical: 4px;
-@border-radius-base: 8px;
-@border-radius-large: 10px;
-@border-radius-small: 4px;
+@border-radius-base: 10px;
+@border-radius-large: 12px;
+@border-radius-small: 8px;
 @btn-font-weight: bold;
 @btn-default-color: @gray-dark;
 @btn-default-bg: transparent;
@@ -45,21 +45,21 @@
 @input-height-base: (@line-height-computed + (@padding-base-vertical * 2) + 4);
 @dropdown-bg: @gray-dark;
 @dropdown-border: @gray-darker;
-@dropdown-divider-bg: @gray;
+@dropdown-fallback-border: @gray-darker;
+@dropdown-divider-bg: @gray-darker;
 @dropdown-link-hover-bg: @gray-darker;
 @navbar-default-color: @text-color;
 @navbar-default-bg: rgb(255, 255, 255);
 @navbar-default-link-color: @gray;
-@navbar-default-link-hover-color: @brand-danger;
-@navbar-default-link-active-color: @brand-warning;
-@navbar-default-link-active-bg: transparent;
+@navbar-default-link-hover-color: @brand-warning;
+@navbar-default-link-active-color: @brand-danger;
 @navbar-default-link-disabled-color: @gray-light;
 @navbar-default-toggle-hover-bg: transparent;
 @navbar-default-toggle-icon-bar-bg: @brand-danger;
 @navbar-default-toggle-border-color: transparent;
 @navbar-inverse-bg: @gray-dark;
-@navbar-inverse-link-hover-color: @brand-danger;
-@navbar-inverse-link-active-bg: transparent;
+@navbar-inverse-link-hover-color: @brand-warning;
+@navbar-inverse-link-active-bg: @gray-darker;
 @navbar-inverse-link-disabled-color: @gray-lighter;
 @navbar-inverse-brand-hover-color: @navbar-inverse-link-hover-color;
 @navbar-inverse-toggle-hover-bg: transparent;
@@ -110,7 +110,5 @@
 @breadcrumb-color: @gray-light;
 @breadcrumb-separator: ">";
 @close-color: rgb(255, 255, 255);
-@code-color: @brand-primary;
-@code-bg: lighten(@brand-info,30%);
-
-
+@code-color: @brand-danger;
+@code-bg: lighten(@brand-danger,28%);
