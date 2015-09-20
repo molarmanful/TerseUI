@@ -5,8 +5,8 @@
 }
 .web-font(@web-font-path);
 
-.shadow (@width: 4px) {
-  border-width: 0 1px @width 1px;
+.shadow (@width: 6px) {
+  border-width: 2px 3px @width 3px;
 }
 
 // Navbar =====================================================================
@@ -26,12 +26,12 @@
 
   &:hover {
     margin-top: 1px;
-    border-bottom-width: 3px;
+    border-bottom-width: 5px;
   }
 
   &:active {
     margin-top: 2px;
-    border-bottom-width: 2px;
+    border-bottom-width: 4px;
     .box-shadow(none);
   }
 
@@ -425,7 +425,7 @@ label {
 
   .alert-link {
     font-weight: normal;
-    color: #fff;
+    color: @gray;
     text-decoration: underline;
   }
 }
@@ -519,4 +519,3 @@ a.list-group-item {
 .popover {
   color: @text-color;
 }
-
